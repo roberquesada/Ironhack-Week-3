@@ -1,0 +1,23 @@
+body
+  background-color: #CCC
+
+.Container
+  width: 970px
+  margin: 0 auto
+  column-count: 4
+
+@media (max-width: 969px)
+  body
+    background-color: red
+
+  .Container
+    column-count: 3
+    width: 720px
+
+@media (max-width: 720px)
+  body
+    background-color: green
+
+  .Container
+    column-count: 2
+    width: 500px

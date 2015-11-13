@@ -1,0 +1,40 @@
+
+
+h3 {
+  padding: 20px;
+}
+
+#red {
+  background-color: red;
+  /*border: 1px solid blue;*/
+}
+
+#top, #bottom {
+  position: absolute;
+}
+
+#top {
+  top: 350px;
+  left: 350px;
+  z-index: 1;
+  box-shadow: 0 0 20px 0 black;
+}
+
+#bottom {
+  top: 400px;
+  left: 500px;
+}
+
+.blue {
+  background-color: blue;
+  border: 1px solid red;
+}
+
+.box {
+  margin: 10px;
+  float: left;
+}
+
+.green {
+  background-color: green;
+}

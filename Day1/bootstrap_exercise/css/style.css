@@ -1,0 +1,200 @@
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Header */
+
+.Header {
+  height: 90px;
+}
+
+.Header a {
+  color: #000;
+}
+
+
+.Header-title {
+  margin: 0;
+  line-height: 90px;
+  font-weight: 700;
+}
+
+.Header-titleLink {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: ;
+}
+
+.Header-nav {
+  line-height: 90px;
+  text-align: right;
+}
+
+
+.Header-nav li
+{
+  display: inline-block;
+  padding: 0 .5rem;
+  font-size: .85rem
+}
+
+.Header-nav li a {
+  color: #777;
+  text-decoration: none;
+}
+
+.Header-nav li a:hover {
+  color: #f4473a;
+}
+
+/* About */
+
+.About {
+  background-color: #ed564b;
+  padding: 2rem 0;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  color: #FFF;
+  text-align: center;
+}
+
+.About-itemIcon
+{
+  border-radius: 50%;
+  border: 5px solid #FFF;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  line-height: 70px;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.About-itemTitle {
+  font-size: 1.5rem;
+}
+
+.About-itemText {
+  font-size: .85rem;
+}
+
+
+/*Latest Projects*/
+
+.LatestProjects {
+  padding-bottom: 2rem;
+}
+
+.LatestProjects-titleContainer {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #CCC;
+  margin-bottom: 2rem;
+}
+
+.LatestProjects-itemImage {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.LatestProjects-itemTitle {
+  text-align: center;
+  font-size: .85rem
+}
+
+.LatestProjects-title, .LatestProjects-subTitle {
+  text-transform: uppercase;
+}
+
+.LatestProjects-title
+{
+  font-size: 1.5rem
+}
+
+.LatestProjects-subTitle
+{
+  font-size: .85rem;
+  color: #aaa;
+}
+
+
+/*Latest Articles*/
+
+.LatestArticles-itemTitle {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.LatestArticles-itemText {
+  font-size: .8rem;
+}
+
+.LatestArticles-info {
+  text-transform: uppercase;
+  font-size: .75rem;
+  font-weight: 700;
+}
+
+.LatestArticles-info a {
+  color: #f4473a;
+  text-decoration: none;
+}
+
+.LatestArticles-info a:hover {
+  color: #000;
+}
+
+/*Footer*/
+
+.Footer {
+  background-color: #3b3b3b;
+  border-top: 5px solid #ed5644;
+}
+
+.Footer-nav {
+  padding: 3rem 0;
+}
+
+.Footer-title {
+  color: #FFF;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.Footer, .Footer a
+{
+  color: #aaa;
+}
+
+.Footer-content {
+  font-size: .85rem;
+}
+
+.Footer-content li
+{
+  border-bottom: 1px dotted;
+}
+
+.Footer-content li a {
+  display: block;
+  padding: .25rem 0;
+  text-decoration: none;
+}
+
+.Footer-content li:hover a {
+  color: #FFF;
+}
+
+.Footer-copyrightContainer {
+  background-color: #292929;
+  color: #FFF;
+  padding: 1rem 0;
+  font-size: .85rem;
+}
+
+.Footer-copyrightText {
+  margin: 0;
+}

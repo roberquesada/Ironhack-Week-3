@@ -1,0 +1,1 @@
+var anApp = require('./closure.js').myApp
